@@ -1,0 +1,97 @@
+/* RESET DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+
+/* SIDEBAR UTAMA (Layar besar) */
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    color: white;
+    top: 0;
+    left: 0;
+    background-color: #283e54;
+    padding-top: 1rem;
+    z-index: 1030;
+}
+
+.sidebar ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: #f57224;
+}
+
+.sidebar ul li {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li:hover {
+    background-color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.sidebar h5 {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.sidebar h5:hover {
+    color: white;
+}
+
+/* KONTEN UTAMA */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* RESPONSIVE: SEMBUNYIKAN SIDEBAR DI LAYAR KECIL */
+@media (max-width: 991.98px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+/* Tambahan styling untuk offcanvas sidebar mobile */
+.offcanvas {
+    background-color: #212529;
+    color: white;
+}
+
+.offcanvas ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.offcanvas ul li a:hover {
+    color: #f57224;
+}
+
+.offcanvas ul li:hover {
+    background-color: #e5e7eb;
+    border-radius: 10px;
+}
