@@ -11,11 +11,11 @@
   <img src="public/assets/images/Screenshot%202025-06-02%20234914.png" width="300" style="margin: 4px;" />
 </p>
 
-  <img src="public/assets/images/Screenshot%202025-06-02%20234921.png" width="300" style="margin: 4px;" />
 <p align="center">
-  <img src="public/assets/images/Screenshot%202025-06-02%20234929.png" width="300" style="margin: 4px;" />
+  <img src="public/assets/images/Screenshot%202025-06-02%20234921.png" width="300" style="margin: 4px;" />
 </p>
 
+![Screenshot 8](public/assets/images/Screenshot%202025-06-02%20234929.png)
 ![Screenshot 8](public/assets/images/Screenshot%202025-06-02%20234944.png)
 ![Screenshot 7](public/assets/images/Screenshot%202025-06-02%20234855.png)
 
